@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function UserMenu({ loggedIn }) {
   return (
     <div>
-      <h4>Welcome to Shoppay !</h4>
+      <h4 className={styles.heading4}>Welcome to Shoppay !</h4>
       {loggedIn ? (
         <div className={styles.flex}>
           <img src="" alt="" className={styles.menu__img} />
